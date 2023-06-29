@@ -18,10 +18,10 @@ int getMinus(int a, int b)
 	return 0;
 }
 
-int getDivide(int a, int b)
+int getDivide(int c, int d)
 {
-	if (b == 0) return -1;
-	else return a / b;
+	if (d == 0) return -1;
+	else return c / d;
 }
 
 int getSumSum(int a, int b, int c)

@@ -5,26 +5,27 @@ int getSum(int a, int b)
 
 int getGop(int a, int b)
 {
-	return 0;
+	return a * b;
 }
 
 int getZegop(int a)
 {
-	return 0;
+	return a * a;
 }
 
 int getMinus(int a, int b)
 {
-	return 0;
+	return a - b;
 }
 
-int getDivide(int c, int d)
+int getDivide(int a, int b)
 {
-	if (d == 0) return -1;
-	else return c / d;
+	if (b == 0) return -1;
+
+	return a / b;
 }
 
 int getSumSum(int a, int b, int c)
 {
-	return 0;
+	return a + b + c;
 }

@@ -19,3 +19,9 @@ TEST(TestCaseName, getDivide) {
 TEST(TestCaseName, getSumSum) {
 	EXPECT_EQ(5, getSumSum(1, 1, 3));
 }
+
+TEST(TestCaseNum, Test_SumSum)
+{
+	EXPECT_EQ(8, getSumSum(2, 5, 1));
+	EXPECT_EQ(100, getSumSum(30, 20, 50));
+}

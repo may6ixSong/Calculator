@@ -10,7 +10,7 @@ int getGop(int a, int b)
 
 int getZegop(int a)
 {
-	return a * a;
+	return 0;
 }
 
 int getMinus(int a, int b)
